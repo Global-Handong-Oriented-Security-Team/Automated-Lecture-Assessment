@@ -32,7 +32,7 @@ Enter a hisnet password: "[hisnetpw]"
 
 시스템 환경 설정 >> 보안 및 개인 정 보호 >> 자물쇠 클릭 >> 자물쇠 해체 후, 체크를 통해 터미널 제어 권한주기 >> 자물쇠 잠금
 
-<img src="img/permission"> 
+<img src="img/permission.png"> 
 
 #### [Mac] “개발자를 확인할 수 없기 때문에 열 수 없습니다” 오류를 수정하는 방법
 
