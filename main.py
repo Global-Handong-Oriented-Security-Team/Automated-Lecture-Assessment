@@ -2,19 +2,23 @@
 Writer: 김진일
 Date: 2022.6.18
 """ 
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import time
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 
-if __name__ == '__main__': 
-    chromedriver_path = input("Enter a chromedriver path: ")
+import time
+if __name__ == '__main__':
     hisnet_id = input("Enter a hisnet id: ") 
     hisnet_pw = input("Enter a hisnet password: ")
 
-    driver = webdriver.Chrome('/Users/jinil/Desktop/LectureAssessment/chromedriver')
+	# Install & Generate Chrome driver 
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     driver.implicitly_wait(3)
 
     # Open the site 
+    driver.maximize_window()
     driver.get('https://hisnet.handong.edu/login/login.php')
 
     # Enter the ID and PW

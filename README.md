@@ -8,14 +8,12 @@
 git clone https://github.com/Global-Handong-Oriented-Security-Team/Automated-Lecture-Assessment.git
 ``` 
 
-### 2. Install Chromedriver 
-<img src="img/chrome_version.png">
+### 2. Install Selenium  
 
-크롬에 들어가셔서 Chrome 정보를 클릭하시면, 현재 자신이 사용하고 있는 버전을 확인할 수 있습니다. 자신의 크롬 버전을 확인한 후, <strong>자신의 버전에 맞는 chromedriver</strong>를 설치해줍니다.
-
-현재 예제 버전의 경우, ChromeDriver 102.0.5005로 되어있기에 아래 링크에서 다운로드 받았습니다. 
-
-Link: https://chromedriver.chromium.org/home
+```bash 
+pip install webdriver-manage
+pip install selenium
+``` 
 
 ### 3. Execute auto lecture assessment program
 
