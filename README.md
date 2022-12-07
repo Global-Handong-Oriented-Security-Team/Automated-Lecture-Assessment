@@ -13,6 +13,12 @@ git clone https://github.com/Global-Handong-Oriented-Security-Team/Automated-Lec
 ```bash 
 pip install webdriver-manage
 pip install selenium
+
+또는 
+
+python[자신의 파이썬 버전] -m pip install webdriver-manage
+python[자신의 파이썬 버전] -m pip install selenium
+ex) python3.7 -m pip install webdriver-manage
 ``` 
 
 ### 3. Execute auto lecture assessment program
@@ -21,7 +27,6 @@ pip install selenium
 
 ```bash
 python3.9 main.py
-Enter a chromedriver path: "[/Users/jinil/Desktop/LectureAssessment/chromedriver]"
 Enter a hisnet id: "[hisnetid]"
 Enter a hisnet password: "[hisnetpw]"
 ```
