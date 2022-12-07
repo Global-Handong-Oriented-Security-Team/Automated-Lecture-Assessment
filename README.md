@@ -27,8 +27,12 @@ ex) python3.7 -m pip install webdriver-manage
 
 ```bash
 python3.9 main.py
-Enter a hisnet id: "[hisnetid]"
-Enter a hisnet password: "[hisnetpw]"
+Enter a hisnet id: [hisnetid]
+Enter a hisnet password: [hisnetpw]
+
+ex)
+Enter a hisnet id: hisnet
+Enter a hisnet password: hisnetpwd
 ```
 
 #### 권한이 없어 프로그램 실행이 안될 경우
