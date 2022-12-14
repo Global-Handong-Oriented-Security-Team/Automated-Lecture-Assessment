@@ -16,9 +16,9 @@ pip install selenium
 
 또는 
 
-python[자신의 파이썬 버전] -m pip install webdriver-manage
+python[자신의 파이썬 버전] -m pip install webdriver-manager
 python[자신의 파이썬 버전] -m pip install selenium
-ex) python3.7 -m pip install webdriver-manage
+ex) python3.7 -m pip install webdriver-manager
 ``` 
 
 ### 3. Execute auto lecture assessment program
