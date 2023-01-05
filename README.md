@@ -11,12 +11,12 @@ git clone https://github.com/Global-Handong-Oriented-Security-Team/Automated-Lec
 ### 2. Install Selenium  
 
 ```bash 
-pip install webdriver-manage
+pip install webdriver-manager
 pip install selenium
 
 또는 
 
-python[자신의 파이썬 버전] -m pip install webdriver-manage
+python[자신의 파이썬 버전] -m pip install webdriver-manager
 python[자신의 파이썬 버전] -m pip install selenium
 ex) python3.7 -m pip install webdriver-manage
 ``` 
