@@ -22,10 +22,10 @@ if __name__ == '__main__':
     driver.get('https://hisnet.handong.edu/login/login.php')
 
     # Enter the ID and PW
-    username = driver.find_element(By.NAME, 'id')
+    username = driver.find_element(By.NAME, 'id_1')
     username.send_keys(hisnet_id) 
 
-    password = driver.find_element(By.NAME, 'password')
+    password = driver.find_element(By.NAME, 'password_1')
     password.send_keys(hisnet_pw) 
 
     # Click login button 
@@ -86,3 +86,4 @@ if __name__ == '__main__':
         time.sleep(1)
 
     print("All is done!")
+
